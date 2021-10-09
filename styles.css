@@ -1,4 +1,4 @@
-/* Global */
+/* global */
 
 :root {
     --dark-blue: #363f5f;
@@ -7,7 +7,6 @@
     --dark-green: #2d4a22;
     --red: #e92929;
 }
-
 
 * {
     margin: 0;
@@ -52,7 +51,6 @@ h2 {
 }
 
 /* Links & Buttons */
-
 a {
     color: var(--green);
     text-decoration: none;
@@ -103,7 +101,6 @@ button:hover{
 }
 
 /* Header & Logo */
-
 header {
     padding: 2rem 0 10rem;
     text-align: center;
@@ -128,7 +125,6 @@ header {
 }
 
 /* Cards */
-
 .card {
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
@@ -159,7 +155,6 @@ header {
 }
 
 /* Transaction*/
-
 #transaction {
     display:block;
     width: 100%;
@@ -167,7 +162,6 @@ header {
 }
 
 /* Table */
-
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
@@ -219,7 +213,6 @@ td.expense {
 }
 
 /* Modal */
-
 .modal-overlay{
     width: 100%;
     height: 100%;
@@ -254,7 +247,6 @@ td.expense {
 }
 
 /* Form */
-
 #form {
     max-width: 500px;
 }
@@ -293,7 +285,6 @@ td.expense {
 }
 
 /* Footer */
-
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
@@ -303,7 +294,6 @@ footer {
 }
 
 /* Responsive */
-
 @media (min-width: 800px) {
 
     html {
